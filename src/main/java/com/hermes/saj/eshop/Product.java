@@ -27,4 +27,9 @@ public class Product {
 
         return Objects.equal(name, rhs.name);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(name);
+    }
 }
