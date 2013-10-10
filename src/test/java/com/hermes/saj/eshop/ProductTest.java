@@ -10,8 +10,8 @@ public class ProductTest {
     @Test
     public void equivalentProductsAreEqual() {
         // given
-        Product karmeliet1 = new Product("Karmeliet");
-        Product karmeliet2 = new Product("Karmeliet");
+        Product karmeliet1 = ProductMother.karmeliet();
+        Product karmeliet2 = ProductMother.karmeliet();
 
         // then
         assertThat(karmeliet1, is(equalTo(karmeliet2)));
@@ -20,8 +20,8 @@ public class ProductTest {
     @Test
     public void equivalentProductsHaveSameHashCode() {
         // given
-        Product karmeliet1 = new Product("Karmeliet");
-        Product karmeliet2 = new Product("Karmeliet");
+        Product karmeliet1 = ProductMother.karmeliet();
+        Product karmeliet2 = ProductMother.karmeliet();
 
         // then
         assertThat(karmeliet1.hashCode(), is(equalTo(karmeliet2.hashCode())));
