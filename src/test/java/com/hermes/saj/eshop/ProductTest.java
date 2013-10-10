@@ -2,8 +2,7 @@ package com.hermes.saj.eshop;
 
 import org.junit.Test;
 
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 
 public class ProductTest {
@@ -25,5 +24,17 @@ public class ProductTest {
 
         // then
         assertThat(karmeliet1.hashCode(), is(equalTo(karmeliet2.hashCode())));
+    }
+
+    @Test
+    public void productNaturalOrderingIsBasedOnName() {
+        // given
+        Product karmeliet = ProductMother.karmeliet();
+        Product westmalle = ProductMother.westmalle();
+
+        // then
+        assertThat(karmeliet.compareTo(karmeliet), is(equalTo(0)));
+        assertThat(karmeliet.compareTo(westmalle), is(lessThan(0)));
+        assertThat(westmalle.compareTo(karmeliet), is(greaterThan(0)));
     }
 }

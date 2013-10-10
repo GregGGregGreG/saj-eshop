@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c265c64e-51b4-424d-9b30-b6ccb913fd28" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShopServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductMother.java" afterPath="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductMother.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShoppingCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShoppingCartTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShoppingCartTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Shop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShopBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShopBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShopTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShopTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eshop.iws" />
@@ -12,18 +16,20 @@
     <file path="/pom.xml" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381431240269" ignored="false" />
     <file path="/web.xml" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381429368334" ignored="false" />
     <file path="/dummy.xml" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381429730201" ignored="false" />
-    <file path="/ShopTest.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381431597071" ignored="false" />
+    <file path="/ShopTest.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381438337064" ignored="false" />
     <file path="/fragment.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381433292115" ignored="false" />
     <file path="/ShopBuilder.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381431408217" ignored="false" />
-    <file path="/Shop.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381431676495" ignored="false" />
-    <file path="/Product.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381435723129" ignored="false" />
-    <file path="/ProductTest.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381431907374" ignored="false" />
-    <file path="/Dummy.txt" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381436861075" ignored="false" />
+    <file path="/Shop.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381437493838" ignored="false" />
+    <file path="/Product.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381438243170" ignored="false" />
+    <file path="/ProductTest.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381437829440" ignored="false" />
+    <file path="/Dummy.txt" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381437048861" ignored="false" />
     <file path="/ShoppingCartTest.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381436268230" ignored="false" />
-    <file path="/JUnit4 Test Method.txt.ft" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381432754288" ignored="false" />
-    <file path="/ProductMother.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381436171431" ignored="false" />
+    <file path="/JUnit4 Test Method.txt.ft" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381437677537" ignored="false" />
+    <file path="/ProductMother.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381438131656" ignored="false" />
     <file path="/ShoppingCart.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381436690690" ignored="false" />
     <file path="/Item.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381435678358" ignored="false" />
+    <file path="/ProductListServlet.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381437254380" ignored="false" />
+    <file path="/ShopServlet.java" changelist="c265c64e-51b4-424d-9b30-b6ccb913fd28" time="1381437242781" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +90,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShoppingCartTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShoppingCartTest.java">
+      <file leaf-file-name="ShopServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShopServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+            <state line="19" column="43" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shop.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Shop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="34" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getProducts#0;class#Shop#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="32" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,13 +122,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCart.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShoppingCart.java">
+      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="85" selection-start="1562" selection-end="1562" vertical-scroll-proportion="1.1794311">
+            <state line="43" column="77" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getName#0;class#Product#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="94" selection-start="496" selection-end="496" vertical-scroll-proportion="0.6695843">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductMother.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductMother.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="27" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,14 +180,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShopBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShopTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Shop.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Product.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductMother.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShoppingCartTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ProductListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShopServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Shop.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductMother.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Product.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShopTest.java" />
       </list>
     </option>
   </component>
@@ -255,6 +305,32 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -292,6 +368,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="fileTemplates" />
@@ -599,7 +676,11 @@
       <created>1381435825837</created>
       <updated>1381435825837</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented shopping cart item total.">
+      <created>1381437053509</created>
+      <updated>1381437053509</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,12 +701,12 @@
       <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33008358" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.2869081" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67270195" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67270195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.67270195" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -706,27 +787,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/After.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="18" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.65462756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/base/Absent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0-sources.jar!/com/google/common/base/Absent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="12" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0900474">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="21" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.86004514">
@@ -737,24 +797,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShopBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.31936416">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="427" selection-end="427" vertical-scroll-proportion="0.3684971">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -782,15 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="73" selection-start="824" selection-end="824" vertical-scroll-proportion="0.9089595">
-          <folding>
-            <element signature="method#getName#0;class#Product#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="117" selection-end="117" vertical-scroll-proportion="0.12283237">
@@ -801,34 +834,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Shop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="532" selection-end="532" vertical-scroll-proportion="0.41763005">
+        <state line="54" column="85" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.77890176">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductMother.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShoppingCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+        <state line="57" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.55780345">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShoppingCart.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-servlet-api/7.0.42/tomcat-servlet-api-7.0.42-sources.jar!/javax/servlet/GenericServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="85" selection-start="1562" selection-end="1562" vertical-scroll-proportion="1.1794311">
+        <state line="176" column="16" selection-start="6745" selection-end="6745" vertical-scroll-proportion="0.33236995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/ShopServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="43" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0-sources.jar!/com/google/common/collect/ImmutableSortedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="38" selection-start="1964" selection-end="1964" vertical-scroll-proportion="-0.024566473">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductMother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="32" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="77" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getName#0;class#Product#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hermes/saj/eshop/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getProducts#0;class#Shop#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hermes/saj/eshop/ShopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="94" selection-start="496" selection-end="496" vertical-scroll-proportion="0.6695843">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

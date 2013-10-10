@@ -1,8 +1,9 @@
 package com.hermes.saj.eshop;
 
 import com.google.common.base.Objects;
+import com.google.common.collect.ComparisonChain;
 
-public class Product {
+public class Product implements Comparable<Product> {
     private String name;
 
     public Product(String name) {
@@ -36,5 +37,10 @@ public class Product {
     @Override
     public String toString() {
         return Objects.toStringHelper(this).add("name", name).toString();
+    }
+
+    @Override
+    public int compareTo(Product that) {
+        return ComparisonChain.start().compare(this.name, that.name).result();
     }
 }
