@@ -1,4 +1,7 @@
-package com.hermes.saj.eshop;
+package com.hermes.saj.eshop.web;
+
+import com.hermes.saj.eshop.Shop;
+import com.hermes.saj.eshop.ShopBuilder;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

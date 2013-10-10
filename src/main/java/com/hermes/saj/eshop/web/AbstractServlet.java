@@ -1,4 +1,4 @@
-package com.hermes.saj.eshop;
+package com.hermes.saj.eshop.web;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

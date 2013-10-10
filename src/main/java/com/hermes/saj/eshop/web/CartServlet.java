@@ -1,6 +1,9 @@
-package com.hermes.saj.eshop;
+package com.hermes.saj.eshop.web;
 
 import com.google.common.base.Optional;
+import com.hermes.saj.eshop.Product;
+import com.hermes.saj.eshop.Shop;
+import com.hermes.saj.eshop.ShoppingCart;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
