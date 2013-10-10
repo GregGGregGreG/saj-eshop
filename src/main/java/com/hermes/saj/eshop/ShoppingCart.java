@@ -2,7 +2,7 @@ package com.hermes.saj.eshop;
 
 import com.google.common.base.Objects;
 import com.google.common.base.Optional;
-import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableSortedSet;
 import com.google.common.collect.Sets;
 
 import java.util.Set;
@@ -16,7 +16,7 @@ public class ShoppingCart {
     }
 
     synchronized public Iterable<Item> getItems() {
-        return ImmutableList.copyOf(items);
+        return ImmutableSortedSet.copyOf(items);
     }
 
     private Item findProductItemOrCreateNewOne(Product product) {
