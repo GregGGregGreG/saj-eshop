@@ -12,8 +12,8 @@ public class ShoppingCartTest {
     @Test
     public void addingANewProductSetsQuantityTo1() {
         // given
-        Product karmeliet = ProductMother.karmeliet();
         ShoppingCart myCart = new ShoppingCart();
+        Product karmeliet = ProductMother.karmeliet();
 
         // when
         myCart.add(karmeliet);
@@ -29,8 +29,8 @@ public class ShoppingCartTest {
     @Test
     public void addingAProductAlreadyPresentIncrementsQuantity() {
         // given
-        Product karmeliet = ProductMother.karmeliet();
         ShoppingCart myCart = new ShoppingCart();
+        Product karmeliet = ProductMother.karmeliet();
         myCart.add(karmeliet);
 
         // then
@@ -49,4 +49,22 @@ public class ShoppingCartTest {
         assertThat(onlyItem.getQuantity(), is(equalTo(expectedQuantity)));
     }
 
+    @Test
+    public void cartWith2KarmelietAnd3WestmalleHas5ItemsInTotal() {
+        // given
+        ShoppingCart cart = new ShoppingCart();
+        Product karmeliet = ProductMother.karmeliet();
+        Product westmalle = ProductMother.westmalle();
+
+        // when
+        cart.add(karmeliet);
+        cart.add(karmeliet);
+
+        cart.add(westmalle);
+        cart.add(westmalle);
+        cart.add(westmalle);
+
+        // then
+        assertThat(cart.getItemTotal(), is(equalTo(5)));
+    }
 }

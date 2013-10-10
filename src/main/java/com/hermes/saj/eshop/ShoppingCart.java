@@ -42,8 +42,16 @@ public class ShoppingCart {
         return Optional.absent();
     }
 
+    public int getItemTotal() {
+        int accumulator = 0;
+        for (Item item : items) {
+            accumulator += item.getQuantity();
+        }
+        return accumulator;
+    }
+
     @Override
     public String toString() {
-        return Objects.toStringHelper(this).add("items", items.size()).toString();
+        return Objects.toStringHelper(this).add("#items", getItemTotal()).toString();
     }
 }
