@@ -22,7 +22,12 @@ public class Item {
         return Objects.equal(this.product, product);
     }
 
-    public void incrementQuantity() {
+    void incrementQuantity() {
         quantity++;
+    }
+
+    @Override
+    public String toString() {
+        return Objects.toStringHelper(this).add("product", product.getName()).add("qty", quantity).toString();
     }
 }

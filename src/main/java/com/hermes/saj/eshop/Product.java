@@ -32,4 +32,9 @@ public class Product {
     public int hashCode() {
         return Objects.hashCode(name);
     }
+
+    @Override
+    public String toString() {
+        return Objects.toStringHelper(this).add("name", name).toString();
+    }
 }

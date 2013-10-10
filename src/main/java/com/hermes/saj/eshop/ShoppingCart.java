@@ -1,5 +1,6 @@
 package com.hermes.saj.eshop;
 
+import com.google.common.base.Objects;
 import com.google.common.base.Optional;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Sets;
@@ -39,5 +40,10 @@ public class ShoppingCart {
             }
         }
         return Optional.absent();
+    }
+
+    @Override
+    public String toString() {
+        return Objects.toStringHelper(this).add("items", items.size()).toString();
     }
 }
