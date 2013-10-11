@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(Navigation.LOGIN_URL)
+@WebServlet(urlPatterns = { Navigation.LOGIN_URL, Navigation.ROOT_URL })
 public class LoginServlet extends AbstractServlet {
 
     private static final String LOGIN_PARAMETER = "login";
